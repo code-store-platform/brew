@@ -3,5 +3,5 @@ Codestore Homebrew Tap
 
 Install the Codestore CLI with
 
-    $ brew install code-store-platform/brew/codestore  
+    $ brew tap code-store-platform/brew && brew install codestore  
 
