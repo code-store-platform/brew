@@ -1,8 +1,8 @@
 class Codestore < Formula
   desc "Command-line interface of code.store"
   homepage "https://code.store/"
-  url "https://s3.code.store/codestore-v1.2.12/codestore-v1.2.12.tar.gz"
-  sha256 "7474ac084e12cdd946b30e2eed7e5689cfbc656ff19e53f947141e67fa3c0d28"
+  url "https://s3.code.store/codestore-v1.3.3/codestore-v1.3.3.tar.gz"
+  sha256 "9210905e9448f18ff03df8c6b751e8445137f545f613e60a398891a9c7bc0f24"
   license "MIT"
   depends_on "node@12"
 
