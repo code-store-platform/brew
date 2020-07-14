@@ -10,7 +10,7 @@ class Codestore < Formula
     inreplace "bin/codestore", /^CLIENT_HOME=/, "export CODESTORE_OCLIF_CLIENT_HOME=#{lib/"client"}\nCLIENT_HOME="
     libexec.install Dir["*"]
     bin.install_symlink libexec/"bin/codestore"
-    bin.install_symlink "codestore" => "cs"
+    bin.install_symlink libexec/"bin/codestore" => "cs"
   end
 
   test do
